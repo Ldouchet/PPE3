@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sio.arbimatch"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/arbitre"
+        android:label="Arbimatch"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.sio.arbimatch.MainActivity"
+            android:label="Arbimatch" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.sio.arbimatch.SaisirMatchActivity"
+            android:label="Arbimatch" >
+        </activity>
+
+        <activity
+            android:name="com.sio.arbimatch.MatchingActivity"
+            android:label="Arbimatch" >
+        </activity>
+
+        <activity
+            android:name="com.sio.arbimatch.AffichageClubActivity"
+            android:label="Arbimatch" >
+        </activity>
+
+        <activity
+            android:name="com.sio.arbimatch.ListeJoueursActivity"
+            android:label="Arbimatch">
+        </activity>
+
+        <activity
+            android:name="com.sio.arbimatch.ListeJoueursActivity2"
+            android:label="Arbimatch">
+        </activity>
+
+        <activity
+            android:name="com.sio.arbimatch.DetailJoueurActivity"
+            android:label="Arbimatch">
+        </activity>
+
+        <activity
+            android:name="com.sio.arbimatch.DetailJoueurActivity2"
+            android:label="Arbimatch">
+        </activity>
+
+        <activity
+            android:name="com.sio.arbimatch.ListeJoueurR1_Activity"
+            android:label="Arbimatch">
+        </activity>
+
+        <activity
+            android:name="com.sio.arbimatch.ListeJoueurR2_Activity"
+            android:label="Arbimatch">
+        </activity>
+
+        <activity
+            android:name="com.sio.arbimatch.RecapActivity"
+            android:label="Arbimatch">
+        </activity>
+
+        <activity
+            android:name="com.sio.arbimatch.Choix_equipeR"
+            android:label="Arbimatch">
+        </activity>
+    </application>
+
+</manifest>

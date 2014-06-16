@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unnamed222">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Saisir Match"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="43dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Entrez le code FFF du match : "
+        android:id="@+id/textView2"
+        android:layout_marginTop="81dp"
+        android:layout_marginLeft="9dp" />
+
+    <EditText
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Et_codeMatch"
+        android:layout_marginLeft="22dp" />
+
+    <Button
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:text="Valider le match"
+        android:id="@+id/b_valider_equipe"
+        android:layout_marginTop="42dp"
+        android:layout_marginLeft="108dp" />
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Retour"
+        android:id="@+id/b_retour"
+        android:layout_marginLeft="133dp" />
+</LinearLayout>

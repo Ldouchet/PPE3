@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unnamed222">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tv_versus"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fff2f4" />
+
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chronometer"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:textSize="80dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lancer 1ère mi-temps"
+        android:id="@+id/bt_start_chrono"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_start_2nd"
+        android:layout_gravity="center_horizontal"
+        android:text="Lancer 2ème mi-temps" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stopper Chrono"
+        android:id="@+id/stopchrono"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donner carton"
+        android:id="@+id/donnercarton"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remplacement"
+        android:id="@+id/bt_remplacement"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attribuer But"
+        android:id="@+id/attribuerbut"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fin du match"
+        android:id="@+id/bt_fin"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sifflet"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/sifflet"
+        android:layout_marginTop="9dp"
+        android:layout_marginRight="-4dp"
+        android:layout_marginLeft="146dp" />
+
+</LinearLayout>

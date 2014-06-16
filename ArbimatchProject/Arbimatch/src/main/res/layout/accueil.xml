@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unnamed222">
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bienvenue sur Arbimatch !"
+        android:id="@+id/textView"
+        android:layout_marginLeft="69dp"
+        android:layout_marginTop="76dp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="203dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/arbitre"
+        android:layout_marginTop="29dp"
+        android:layout_marginLeft="9dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Commencer Match"
+        android:id="@+id/commencerM"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="36dp"
+        android:layout_marginLeft="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sifflet"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/sifflet"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="-4dp" />
+
+</LinearLayout>
